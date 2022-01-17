@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.12 FATAL_ERROR)
+project(recipe-07 LANGUAGES CXX)
+
+message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
+
+message(STATUS "C flags, Debug configuration: ${CMAKE_C_FLAGS_DEBUG}")
+message(STATUS "C flags, Release configuration: ${CMAKE_C_FLAGS_RELEASE}")
+message(STATUS "C flags, Release configuration with Debug info: ${CMAKE_C_FLAGS_RELWITHDEBINFO}")
+message(STATUS "C flags, minimal Release configuration: ${CMAKE_C_FLAGS_MINSIZEREL}")
+
+message(STATUS "C++ flags, Debug configuration: ${CMAKE_CXX_FLAGS_DEBUG}")
+message(STATUS "C++ flags, Release configuration: ${CMAKE_CXX_FLAGS_RELEASE}")
+message(STATUS "C++ flags, Release configuration with Debug info: ${CMAKE_CXX_FLAGS_RELWITHDEBINFO}")
+message(STATUS "C++ flags, minimal Release configuration: ${CMAKE_CXX_FLAGS_MINSIZEREL}")
